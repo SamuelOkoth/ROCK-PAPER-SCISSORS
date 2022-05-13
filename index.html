@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock, paper and scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="arena__main">
+        <!-- header -->
+        <div class="header">
+            <p class="header__title">Rock paper scissors</p>
+            <div class="social__buttons">
+                <a href="/" class="social__link">
+                    <svg class="social__link--icon">
+                        <use xlink:href="sprite/sprite.svg#icon-whatsapp"></use>
+                    </svg>
+                </a>
+                <a href="/" class="social__link">
+                    <svg class="social__link--icon">
+                        <use xlink:href="sprite/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+                <a href="/" class="social__link">
+                    <svg class="social__link--icon">
+                        <use xlink:href="sprite/sprite.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- end of the header -->
+        <div class="rounds__container">
+            <p class="rounds__text">round 1/3</p>
+        </div>
+
+        <div class="pane pane__left">
+            <div class="pane__options">
+                <p class="pane__options--username pane__text">player username</p>
+                <button class="pane__button">
+                    <svg class="pane__button--icon">
+                        <use xlink:href="sprite/sprite.svg#icon-rock"></use>
+                    </svg>
+                </button>
+                <button class="pane__button">
+                    <svg class="pane__button--icon u-rotate">
+                        <use xlink:href="sprite/sprite.svg#icon-scissors"></use>
+                    </svg>
+                </button>
+                <button class="pane__button">
+                    <svg class="pane__button--icon">
+                        <use xlink:href="sprite/sprite.svg#icon-paper"></use>
+                    </svg>
+                </button>
+                <p class="pane__text">score: 0</p>
+            </div>
+        </div>
+
+        <div class="button__container">
+            <button class="go__button">go</button>
+        </div>
+
+        <div class="pane pane__right">
+            <div class="pane__options">
+                <p class="pane__options--username pane__text">player username</p>
+                <button class="pane__button">
+                    <svg class="pane__button--icon">
+                        <use xlink:href="sprite/sprite.svg#icon-rock"></use>
+                    </svg>
+                </button>
+                <button class="pane__button">
+                    <svg class="pane__button--icon u-rotate">
+                        <use xlink:href="sprite/sprite.svg#icon-scissors"></use>
+                    </svg>
+                </button>
+                <button class="pane__button">
+                    <svg class="pane__button--icon">
+                        <use xlink:href="sprite/sprite.svg#icon-paper"></use>
+                    </svg>
+                </button>
+                <p class="pane__text">score: 0</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
